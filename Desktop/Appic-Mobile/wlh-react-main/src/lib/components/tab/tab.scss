@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo&display=swap");
+.tab-item {
+	font-family: "Heebo", sans-serif !important;
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #e9ebef;
+	flex-grow: 1;
+	font-size: 13px;
+
+	.tab-left-section {
+		.tab-ul {
+			box-sizing: border-box;
+			display: flex;
+			list-style: none;
+			align-items: center;
+			margin: 0;
+			padding: 0;
+			height: 100%;
+			.tab-li-block {
+				margin: 0vw 2vw;
+				height: 99%;
+				display: flex;
+				align-items: center;
+				color: #5c677d;
+				cursor: pointer;
+				.tab-li {
+					padding: 1vw 0;
+				}
+			}
+			.active-li-tab {
+				@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@700&display=swap");
+				font-weight: 700;
+				color: #1d4eff;
+				border-bottom: 2px solid #1d4eff;
+			}
+		}
+	}
+
+	.tab-right-section {
+		.tab-button {
+			@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap");
+			margin: 0 15px;
+			border: none;
+			padding: 5px 15px;
+			border: 1px solid #0073e6;
+			color: #0073e6;
+			background-color: #fff;
+			font-weight: 500;
+			cursor: pointer;
+			border-radius: 5px;
+			font-family: "Heebo", sans-serif !important;
+			font-style: normal;
+			font-size: 13px;
+		}
+	}
+}

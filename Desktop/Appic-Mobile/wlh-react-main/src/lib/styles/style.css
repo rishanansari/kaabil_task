@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo&display=swap");
+
+.card_ {
+	background: #fff;
+	border: 1px solid #e9ebef;
+	box-sizing: border-box;
+	border-radius: 4px;
+	width: 32%;
+	position: relative;
+	margin: 0.6rem 0.5rem;
+	font-family: "Heebo", sans-serif !important;
+}
+.card_.viewCard .card_bottom_det {
+	border-bottom: 1px solid #e6e9f0;
+	font-family: "Heebo", sans-serif !important;
+}
+.card_.viewCard .card_bottom_det ul li:first-child {
+	border: none !important;
+	padding: 0.5rem 0.5rem 0.5rem 0;
+	font-family: "Heebo", sans-serif !important;
+}
+.card_ .card_tag {
+	font-family: "Heebo", sans-serif !important;
+
+	position: absolute;
+	top: -8px;
+	left: 1rem;
+	padding: 1px 0.4rem;
+	border-radius: 2px;
+	color: #fff;
+	font-size: 0.7rem;
+	letter-spacing: 0.2px;
+}
+.card_ .card_tag.rootobject {
+	background-color: #745cff;
+}
+.card_ .card_tag.childobject {
+	background-color: #ff4e64;
+}
+.card_ .card_tag.aspects {
+	background-color: #ff7527;
+}
+.card_ .card_tag.rootobject {
+  background-color: #745cff;
+}
+.card_ .card_tag.childobject {
+  background-color: #ff4e64;
+}
+.card_ .card_tag.aspects {
+  background-color: #ff7527;
+}
+.card_ .card_tag.cud {
+	background-color: #ff4e64;
+}
+.card_ .card_tag.native {
+	background-color: #745cff;
+}
+.card_ .card_tag.custom {
+	background-color: #ff7527;
+}
+.card_ .card_tag.thirdparty {
+	background-color: #d5ed42;
+	color: #4e580e;
+}
+.card_ .card_top_det {
+	display: flex;
+	align-items: center;
+	padding: 1.2rem 1rem 1rem 1rem;
+	border-bottom: 1px solid #e6e9f0;
+}
+.card_ .card_top_det .card_name {
+	width: 50%;
+}
+.card_ .card_top_det .card_name h5 {
+	margin: 0;
+	color: #33415c;
+	font-size: 0.9rem;
+	font-weight: 500;
+	padding-bottom: 0.3rem;
+	letter-spacing: 0.3px;
+}
+.card_ .card_top_det .card_name h6 {
+	margin: 0;
+	color: #7d8597;
+	font-size: 0.8rem;
+	font-weight: 400;
+	letter-spacing: 0.2px;
+}
+.card_ .card_top_det .card_date {
+	width: 50%;
+}
+.card_ .card_top_det .card_date > p {
+	margin: 0;
+	text-align: right;
+	color: #33415c;
+	font-size: 0.8rem;
+	padding-bottom: 0.3rem;
+}
+.card_ .card_top_det .card_date > h6 {
+	margin: 0;
+	text-align: right;
+	font-size: 0.7rem;
+	color: #7d8597;
+	font-weight: 400;
+}
+.card_ .card_top_det .card_date > h6 span {
+	margin-right: 0.3rem;
+}
+.card_ .card_bottom_det ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 1rem;
+}
+.card_ .card_bottom_det ul li {
+	display: flex;
+	align-items: center;
+	font-size: 0.8rem;
+	letter-spacing: 0.2px;
+	color: #7d8597;
+}
+.card_ .card_bottom_det ul li:first-child {
+	padding: 1rem 1rem 1rem 0;
+	border-right: 1px solid #e6e9f0;
+}
+.card_ .card_bottom_det ul li.subscribed {
+	color: #0073e6;
+}
+.card_ .card_bottom_det ul li.available {
+	color: #1bc54e;
+}
+.card_ .card_bottom_det ul li.available .dot {
+	color: #1bc54e;
+}
+.card_ .card_bottom_det ul li.inactive {
+	color: #979dac;
+}
+.card_ .card_bottom_det ul li.inactive .dot {
+	color: #979dac;
+}
+.card_ .card_bottom_det ul li.active {
+	color: #138a36;
+}
+.card_ .card_bottom_det ul li.active .dot {
+	color: #138a36;
+}
+.card_ .card_bottom_det ul li:nth-child(2) {
+	color: #0073e6;
+}
+.card_ .card_bottom_det ul li .dot {
+	font-size: 0.9rem;
+	padding-left: 0 !important;
+}
+.card_ .card_bottom_det ul li span {
+	margin-right: 0.5rem;
+}
+.card_ .card_bottom_det ul li span:last-child {
+	padding-left: 0.5rem;
+	margin-left: auto;
+}
+.card_ .card_bottom_det ul li span:last-child.arrow_right {
+	margin-right: 0 !important;
+}
+
+.custom_modal .custom_modal_bg {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: #0000008c;
+}
+.custom_modal .custom_modal_main {
+	position: absolute;
+	z-index: 9;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #fff;
+	width: 36%;
+	padding: 1rem;
+	border-radius: 4px;
+}
+.custom_modal .custom_modal_main .custom_modal_header {
+	justify-content: space-between;
+	font-size: 0.9rem;
+	color: #33415c;
+	font-weight: 500;
+	letter-spacing: 0.5px;
+}
+.custom_modal .custom_modal_main .custom_modal_header span {
+	height: 20px;
+	cursor: pointer;
+}
+.custom_modal .custom_modal_main .custom_modal_body {
+	margin: 2rem 0;
+}
+.custom_modal .custom_modal_main .custom_modal_body h4 {
+	margin: 0.5rem 0 1.5rem;
+	font-size: 1rem;
+	font-weight: 400;
+	color: #33415c;
+}
+.custom_modal .custom_modal_main .custom_modal_body .config_input {
+	justify-content: space-between;
+	display: flex;
+	margin-bottom: 1rem;
+}
+.custom_modal .custom_modal_main .custom_modal_body .config_input > div {
+	width: 49%;
+}
+.custom_modal .custom_modal_main .custom_modal_body .config_input > div label {
+	color: #979dac;
+}
+.custom_modal .custom_modal_main .custom_modal_body .config_input > div input {
+	padding: 0.4rem 1rem;
+	font-size: 0.8rem;
+	color: #33415c;
+}
+.custom_modal .custom_modal_main .custom_modal_footer {
+	border-top: 1px solid #c9cdd6;
+	padding: 1.5rem 0 0;
+	text-align: right;
+}
+.custom_modal .custom_modal_main .custom_modal_footer button:last-child {
+	margin-left: 1rem;
+}

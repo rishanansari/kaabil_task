@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo&display=swap");
+.filter-field-label {
+	font-size: 13px !important;
+	color: #979dac;
+}
+
+#button {
+	font-weight: bold;
+	font-family: "Heebo";
+	padding: 5px 20px;
+	box-shadow: none;
+}

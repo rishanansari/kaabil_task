@@ -1,0 +1,143 @@
+.user-description {
+	position: relative;
+	top: 3px;
+}
+.user-description .user-profile-name {
+	background-color: rgb(204, 204, 204);
+	border-radius: 25px;
+	margin: 0 10px;
+	padding: 0.45vw 0.5vw;
+	position: relative;
+	top: -5px;
+	font-size: x-small;
+}
+
+.user-description .profile-pic {
+	margin: 0 10px;
+	margin: 5px;
+	width: 19px;
+	height: 19px;
+	border-radius: 50%;
+}
+.user-description .down-arrow {
+	position: relative;
+	top: -6px;
+	margin: 5px;
+	width: 0.8vw;
+	height: auto;
+}
+
+.user-profile-block {
+	width: 292px;
+	height: 212px;
+	z-index: 5;
+	position: absolute;
+	border: 1px solid #e7ebf7;
+	right: -13px;
+	top: 30px;
+	background-color: #fff;
+	box-shadow: 0px 10px 10px rgba(2, 62, 125, 0.1);
+	border-radius: 4px;
+}
+
+.user-data {
+	display: inline-flex;
+	align-items: center;
+	margin: 25px;
+}
+
+.user-details {
+	margin-left: 1vw;
+}
+
+.profile-pic-2 {
+	width: 57px;
+	height: 57px;
+	border-radius: 50%;
+}
+
+.user-profile-2 {
+	background-color: rgb(204, 204, 204);
+	border-radius: 50px;
+	cursor: pointer;
+	padding: 5px 10px;
+	font-size: xx-large;
+	margin: 5px;
+}
+
+.user-details .user-full-name {
+	font-size: 13px;
+	color: #5c677d;
+	font-weight: 600;
+}
+
+.user-role {
+	color: #5c677d;
+	font-size: 13px;
+}
+
+.user-active-status {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 10px;
+}
+
+.user-current,
+.user-last {
+	padding: 11px;
+	border: 1px solid #e9ebef;
+	border-left: none;
+	text-align: center;
+	font-size: 12px;
+	font-weight: 400;
+}
+
+.user-current-status,
+.user-last-status {
+	color: #979dac;
+}
+.user-current-time,
+.user-last-time {
+	color: #5c677d;
+}
+
+.user-last {
+	border-right: none;
+}
+.user-settings,
+.user-logout {
+	padding: 1vw;
+	border: 1px solid #e9ebef;
+	width: 50%;
+	border-left: none;
+	cursor: pointer;
+}
+.user-settings {
+	border-bottom: none;
+	border-top: none;
+}
+.user-logout {
+	border-bottom: none;
+	border-top: none;
+	border-right: none;
+}
+
+.user-settings-block {
+	display: flex;
+	justify-content: space-between;
+}
+.user-settings-block div img {
+	/* width: 1.5vw; */
+	/* height: auto; */
+	width: 15.79px;
+	height: 15.78px;
+	margin-right: 10px;
+}
+.user-settings-block div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 13px;
+	font-weight: 400;
+	color: #0073e6;
+}

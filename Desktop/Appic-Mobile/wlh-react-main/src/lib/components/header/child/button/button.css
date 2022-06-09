@@ -1,0 +1,12 @@
+.optional-button {
+	margin: 0 15px;
+	border: none;
+	padding: 5px 15px;
+	background-color: #1d4eff;
+	color: white;
+	font-weight: 600;
+	font-size: 12px;
+	cursor: pointer;
+	border-radius: 5px;
+	font-family: "Heebo", sans-serif !important;
+}

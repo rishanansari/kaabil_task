@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo&display=swap");
+
+.header-block {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #c9cdd6;
+	background-color: #f7f9fb;
+	padding: 0 2vw;
+	height: 67px;
+	font-family: "Heebo", sans-serif !important;
+}
+
+.header-left-elements {
+	display: flex;
+	align-items: center;
+}
+
+.portal-adjacent {
+	color: #5c677d;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 15px;
+}
+
+.header-right-elements {
+	display: flex;
+	align-items: center;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-weight: 400;
+}
+
+.vertical-line {
+	margin: 0 10px;
+	border-left: 1px solid #c9cdd6;
+	height: 1.8vw;
+}
+
+/* 
+	Selecte option
+*/
+.selectForRole {
+	position: relative;
+}
+.roleViewer {
+	font-size: 13px;
+	display: inline-flex;
+	align-items: center;
+	font-weight: 400;
+	border: 1px solid #e9ebef;
+	border-radius: 3px;
+	padding: 5px 10px;
+	cursor: pointer;
+	position: relative;
+}
+.roleView {
+	color: #33415c;
+	margin-right: 2vw;
+}
+
+.rolesDropDown {
+	margin: 5px;
+	width: 0.8vw;
+	height: auto;
+}
+
+.label-block {
+	color: #33415c;
+	font-size: 13px;
+}
+
+.roleDropDownUl {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	padding: 0;
+	z-index: 5;
+	border: 1px solid #00000017;
+	margin: 0;
+	list-style: none;
+	background-color: #fff;
+	border-radius: 3px;
+}
+.roleDropDownLi {
+	padding: 10px;
+	color: #5c5f62;
+	font-size: 12px;
+}
+.roleDropDownLi:hover {
+	cursor: pointer;
+}
+
+.notification-logo img {
+	width: 16.5px;
+	height: 18.9px;
+	margin: 5px 1vw;
+	position: relative;
+	top: 4px;
+}
+.info-logo img {
+	width: 19px;
+	height: 19px;
+	margin: 5px 1vw;
+	position: relative;
+	top: 3px;
+}
